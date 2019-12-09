@@ -1,0 +1,66 @@
+html, body{
+	height: 100%;
+	min-height: 100%;
+	background-image: linear-gradient(to right, rgba(0,191,255, .6) 50%, rgba(0,255,255,0.8) 90%, rgba(255,255,255,0.4) 100%);
+}
+
+.wrapper {
+  height: 100%;
+  min-height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-family: "Verdana", Times, sans-serif;
+}
+
+.wrapper div {
+	margin: 15px 0 15px 0;
+	padding: 20px;
+}
+
+#corpo{
+	margin: 0 auto;
+	
+}
+
+#login{
+	max-width: 400px ;
+	width: 100%;
+	border: 0px;
+	margin: 0 auto;
+	text-align:center;
+	min-height: 100px;
+	
+}
+
+#titulo{
+	text-align: center;
+}
+
+#botaoEntrar{
+	width: 50%;
+	background-color: rgba(0,191,255, 0.8);
+	border: 1px solid;
+	border-radius: 5px;
+	border-color: rgba(0,0,0,0.6);
+}
+
+#vantagens h1{
+	margin-bottom: 10%;
+	font-size: 45px;
+	
+}
+
+#vantagens li{
+	margin-top: 2%;
+	font-size: 25px;
+}
+
+#esqueciSenha a{
+	text-decoration: none;
+	color: black;
+	margin-top: -5%;
+}

@@ -1,0 +1,306 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|VT323');
+
+body{
+	background: url("../imagens/fundo.png") no-repeat fixed;
+	background-size: cover;
+}
+
+div#interface{
+	margin: 0 auto;
+	width: 1300px;
+	position: relative;
+}
+
+header#cabecalho div#logo{
+	margin-left: 3%;
+	margin-top: 2.5%;
+}
+
+header#cabecalho div#logo img{
+	width: 360px;
+	height: 180px;
+	position: absolute;
+}
+	
+header#cabecalho div#logo img#cogumelo{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	float: right;
+	
+}
+
+header#cabecalho div#logo img#cadeado{
+	width: 25px;
+	height: 25px;
+	float: center;
+	
+}
+
+header#cabecalho form#formulario{
+	position: absolute;
+	right:-1.8%;
+	top: 50%;
+}
+
+header#cabecalho  form#formulario input{
+	font-family: 'Roboto Mono', monospace;	
+	font-size:14px;
+	position:relative;
+	width: 42%;
+	border: 7px solid;
+	border-color: rgba(134,199,32,1);
+	border-radius: 7px;
+	padding-top: 3%;
+	padding-bottom:3%;
+	color: white;
+	text-indent: 45px;
+}
+
+header#cabecalho  form#formulario input#cUsername{
+	background: black;
+	background-image: url("../imagens/cogumelo.png");
+	background-repeat: no-repeat;
+	background-position: 4%;
+}
+
+header#cabecalho  form#formulario input#cPassword{
+	left: 2%;	
+	background: black;
+	background-image: url("../imagens/cadeado.png");
+	background-repeat: no-repeat;
+	background-position: 4%;
+}
+
+header#cabecalho  form#formulario input#cEntrar{
+	left: 45%;	
+	top: 120%;
+	position: absolute;
+	text-indent: 0;
+	background: black;
+}
+
+input[type="submit"]{
+	color:white;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: white;
+	text-align:left;
+	
+}
+
+header#cabecalho  form#formulario div#cadastrar{
+	font-family: 'Roboto Mono', monospace;	
+	font-size:14px;
+	position: absolute;
+	top: 120%;
+	width: 38.5%;
+	border: 7px solid;
+	border-color: rgba(33,157,198,1);
+	border-radius: 7px;
+	background: black;
+	padding-top: 2.9%;
+	padding-bottom:2.9%;
+}
+
+header#cabecalho  form#formulario div#esqueci{
+	position: absolute;
+	top: 125px;
+	left: 55px;
+	
+}
+
+header#cabecalho  form#formulario div#esqueci a{
+	color: rgba(233,230,3,1);
+	font-family: 'Roboto Mono', monospace;	
+	font-size:14px;
+}
+
+header#cabecalho  form#formulario a{
+	text-decoration: none;
+	color: white;
+	padding-left: 40px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'VT323', monospace;
+	font-size:18px;
+	text-indent: -20px;
+	text-align: center;
+}
+
+p{
+	font-family: 'Roboto Mono', monospace;
+	font-size:14px;
+
+}
+
+section#secao{
+	padding: 5px;
+	position: absolute;
+	
+}
+
+section#secao nav#menu ol{
+	position: fixed;
+	list-style: none;
+	top: 220px;
+	left: 60px;
+}
+
+section#secao nav#menu li{
+	font-family: 'Roboto Mono', monospace;
+	font-size:14px;
+	display: inline-block;
+	width: 150px;
+	height: 23px;
+	padding: 10px;
+	margin: 6px;
+	background-color: rgba(61,58,59,1);
+	border: 7px solid;
+	border-color: rgba(233,0,136,1);
+	border-radius: 7px;
+}
+
+section#secao nav#menu img{
+	position: relative;
+	bottom: 120%;
+	width: 40px;
+	height: 50px;
+	float: right;
+	left: 10%;
+}
+
+section#secao nav#menu div.atual{
+	position: relative;
+	width: 145px;
+	height: 18px;
+	padding: 9px;
+	margin: 6px;
+	border: 4px solid;
+	border-color: rgba(255,229,45,1);
+	border-radius: 3px;
+	bottom: 16px;
+	right: 17px;
+}
+
+section#secao nav#menu div#contorno{
+	position: relative;
+	width: 145px;
+	height: 18px;
+	padding: 9px;
+	margin: 6px;
+	border: 0px solid;
+	bottom: 16px;
+	right: 17px;
+	border-radius: 3px;
+}
+
+section#secao nav#menu div#contorno:hover{
+	border: 4px solid;
+	border-color: rgba(255,229,45,1);
+}
+
+section#secao nav#menu img{
+	position: relative;
+	bottom: 120%;
+	width: 40px;
+	height: 50px;
+	float: right;
+	left: 10%;
+}
+
+section#secao nav#menu div#contorno img#verde{
+	bottom: 38px;
+	width: 35px;
+	left: 8.8%;
+}
+
+section#secao nav#menu div#contorno img#amarelo{
+	bottom: 19px;
+}
+
+section#secao nav#menu div#contorno img#azul{
+	bottom: 16px;
+}
+
+section#secao nav#menu div#contorno img#vermelho{
+	bottom: 16px;
+}
+
+section#secao nav#menu a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+section#secao nav#menu a {
+}
+
+section#secao div#quadro{
+	position: absolute;
+	left: 265px;	
+	top: 185px;
+	width: 1000px;
+
+	color:white;
+	border: 4px solid;
+	border-color: rgba(42,150,190,1);
+	border-radius: 7px;
+}
+
+section#secao div#quadro div#painel{
+	background-color: rgba(38,120,156,0.7);
+	border-bottom: 4px solid;
+	border-color: rgba(42,150,190,1);
+	height: 350px;
+}
+
+section#secao div#quadro div.conteudo {
+	color: white;
+	text-indent: 50px;
+	background-color: rgba(159,165,169,0.7);
+	padding: 50px 30px 50px 30px;
+	height: 600px;
+	overflow-y: scroll;
+}
+
+section#secao div#quadro::-webkit-scrollbar-track {
+    background-color: rgba(159,165,169,1);
+}
+
+section#secao div#quadro ::-webkit-scrollbar {
+    width: 20px;
+    background: rgba(0,0,0, 0.1);
+}
+
+section#secao div#quadro ::-webkit-scrollbar-thumb {
+    background: rgba(159,165,169,1);
+	border-radius: 10px;
+}
+
+footer#rodape {
+	font-family: 'VT323', monospace;
+	font-size:30px;
+	position: absolute;
+	top: 1350px;
+	height: 100px;
+	width:1220px;
+	margin-left: 7%;
+	margin-bottom:1%;
+	margin-right: 5%;
+	border : 5px solid; 
+	border-color: red;
+	background: black;	
+	border-radius: 7px;
+}
+
+footer#rodape h5{
+	color: white;	
+	text-align:center;
+	letter-spacing: 2px;
+	line-height:14px;
+}
